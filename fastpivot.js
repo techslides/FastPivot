@@ -33,7 +33,6 @@ function fastpivot(arr){
 			temp[f]["_labels"]=Object.keys(temp[f]["_labels"]);
 		});
 
-		obj._total=temp.length;
 		obj=temp;
 	}
 	return obj;

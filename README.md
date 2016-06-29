@@ -17,7 +17,6 @@ var mydata='[{"id":"1","make":"Audi","color":"","age":2015},{"id":"2","make":"To
 ~~~~
 
 Pass it to FastPivot:
-`var json = JSON.parse(mydata);var data = fastpivot(json);`
 ~~~~
 var json = JSON.parse(mydata);
 var data = fastpivot(json);

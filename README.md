@@ -26,7 +26,7 @@ data["color"]._labelsdata //returns [1, 1, 2, 4, 2]
 data["color"]._data["red"] //returns 4
 ~~~~
 
-[JSFiddle](https://jsfiddle.net/3h3kuoz2/ "Drawing a pie chart with fastpivot and ChartJS").
+[JSFiddle](https://jsfiddle.net/3h3kuoz2/ "Drawing a pie chart with fastpivot and ChartJS")
 
 
 

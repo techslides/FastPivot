@@ -12,8 +12,9 @@ Consider some tabular data
 <table style="width:100%"><tbody><tr><th>id</th><th>make</th><th>color</th><th>age</th></tr><tr><td>1</td><td>Audi</td><td></td><td>2015</td></tr><tr><td>2</td><td>Toyota</td><td>green</td><td>2010</td></tr><tr><td>3</td><td>Honda</td><td></td><td>2013</td></tr><tr><td>4</td><td>Audi</td><td>red</td><td>2011</td></tr><tr><td>5</td><td>BMW</td><td>blue</td><td>2012</td></tr><tr><td>6</td><td>Audi</td><td>red</td><td>2012</td></tr><tr><td>7</td><td>Honda</td><td></td><td>2013</td></tr><tr><td>8</td><td>BMW</td><td>blue</td><td>2011</td></tr><tr><td>9</td><td>Audi</td><td>red</td><td>2010</td></tr><tr><td>10</td><td>Toyota</td><td>red</td><td>2012</td></tr></tbody></table>
 
 That you have in JSON:
-
-`var mydata='[{"id":"1","make":"Audi","color":"","age":2015},{"id":"2","make":"Toyota","color":"green","age":2010},{"id":"3","make":"Honda","color":null,"age":2013},{"id":"4","make":"Audi","color":"red","age":2011},{"id":"5","make":"BMW","color":"blue","age":2012},{"id":"6","make":"Audi","color":"red","age":2012},{"id":"7","make":"Honda","color":null,"age":2013},{"id":"8","make":"BMW","color":"blue","age":2011},{"id":"9","make":"Audi","color":"red","age":2010},{"id":"10","make":"Toyota","color":"red","age":2012}]';`
+~~~~
+var mydata='[{"id":"1","make":"Audi","color":"","age":2015},{"id":"2","make":"Toyota","color":"green","age":2010},{"id":"3","make":"Honda","color":null,"age":2013},{"id":"4","make":"Audi","color":"red","age":2011},{"id":"5","make":"BMW","color":"blue","age":2012},{"id":"6","make":"Audi","color":"red","age":2012},{"id":"7","make":"Honda","color":null,"age":2013},{"id":"8","make":"BMW","color":"blue","age":2011},{"id":"9","make":"Audi","color":"red","age":2010},{"id":"10","make":"Toyota","color":"red","age":2012}]';
+~~~~
 
 Pass it to FastPivot:
 `var json = JSON.parse(mydata);var data = fastpivot(json);`

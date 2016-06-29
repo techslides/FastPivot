@@ -3,9 +3,9 @@ FastPivot.js is a simple, small, and fast JavaScript library to shift or pivot d
 
 ##Usage
 Pass an array to fastpivot which will return columns as objects with:
-*_data* - contains frequency of any value in a column, used for lookup
-*_labels* - contains unique values in an array, used to show labels in a chart
-*_labelsdata* - frequency of values in an array, used to show data for each label in a graph
+- *_data* - contains frequency of any value in a column, used for lookup
+- *_labels* - contains unique values in an array, used to show labels in a chart
+- *_labelsdata* - frequency of values in an array, used to show data for each label in a graph
 
 ##Example
 Consider some tabular data
@@ -26,7 +26,7 @@ data["color"]._labelsdata //returns [1, 1, 2, 4, 2]
 data["color"]._data["red"] //returns 4
 ~~~~
 
-[JSFiddle](https://jsfiddle.net/eezgfjoj/ "Drawing a pie chart with fastpivot and ChartJS")
+[Draw Pie Chart with the data above, FastPivot, and ChartJS](https://jsfiddle.net/eezgfjoj/ "Drawing charts FastPivot and ChartJS")
 
 
 
